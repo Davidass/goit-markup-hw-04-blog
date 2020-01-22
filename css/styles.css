@@ -40,6 +40,7 @@ img {
 }
 
 .menu-wrapper {
+  min-width: 75px;
   padding-top: 75px;
   padding-bottom: 105px;
 }
@@ -69,6 +70,15 @@ img {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  padding-bottom: 70px;
+}
+
+.section .content {
+  padding-bottom: 135px;
+}
+
+.section .content:nth-last-child(-n + 3) {
+  padding-bottom: 60px;
 }
 
 .content-list__name {
@@ -95,10 +105,6 @@ img {
   margin-bottom: 35px;
 }
 
-.content .content-list__about {
-  margin-bottom: 135px;
-}
-
 .content-list__heading {
   font-size: 30px;
   font-weight: 400;
@@ -114,6 +120,5 @@ img {
   cursor: pointer;
   margin: 0 auto;
   padding: 20px 35px;
-  margin-bottom: 70px;
   border: 1px solid #626262;
 }
